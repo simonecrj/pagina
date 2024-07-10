@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/estilo5.css" >
+    <title>Formulário</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="p1.html">Página1</a></li>
+                <li><a href="p2.html">Página 2</a></li>
+                <li><a href="p3.html">Página 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <form name="contato">
+        
+        <div class="tag">
+            <label>Nome:</label>
+        </div>
+        <div class="box">
+            <input class="form-control" type="text" name="nome"><br>
+        </div>
+       
+        <div class="tag">
+            <label>E-mail:</label>
+        </div>
+        <div class="box">
+            <input  class="form-control" type="email" name="email"><br>
+        </div>
+        <div class="tag">
+            <label>Senha:</label>
+        </div>
+        <div class="box">
+            <input class="form-control" type="password" name="senha"><br>
+        </div>
+        <div class="tag">
+            <span>Sexo</span>
+        </div>
+        <div class="box">
+            <input  type="radio" name="sexo">Masculino
+            <input  type="radio" name="sexo">Feminino
+      
+        </div>
+        <div class="tag">
+            <span>Estado Civil</span>
+        </div>
+        <div class="box">
+            <input  type="checkbox" name="estado">Casado
+            <input  type="checkbox" name="estado">Solteiro
+            <input  type="checkbox" name="estado">Divorciado
+        </div>
+        <div class="tag">
+        <span> Assunto:</span>
+        </div>  
+        <div class="box">
+		    <select  name="assunto">
+		    <option value="elogio" selected>Elogio</option> 
+		    <option value="sugestao" >Sugestão</option>
+		    <option value="reclamacao">Reclamação</option>
+		    <option value="duvidas">Dúvidas</option>
+		    <option value="outros">Outros</option>
+		    </select><br>
+        </div>
+        <div class="tag">
+            <span> Mensagem:</span><br>
+        </div>
+        <div class="box"></div>
+	        <textarea  name="mensagem" rows="10" cols="33" 
+	        placeholder="Mensagem">			
+		</textarea>	<br><br>
+
+	    <button  type="submit" value="Enviar">
+	    Enviar</button>
+	    <button  type="reset"  value="Limpar">
+	    Limpar</button>
+    </form>
+    </div>
+    <footer class="footer">
+        <p>Desenvolvido por @Senac</p>
+    </footer>
+    
+</body>
+</html>

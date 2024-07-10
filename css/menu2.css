@@ -1,0 +1,110 @@
+.cabecalho{
+	width:100%;
+	height:100px;
+	margin:0 auto;
+
+	color:#000;
+}
+.meio{
+    width:100%;
+    margin: 0 auto;
+    height: 765px;
+	background-color:gainsboro;
+}
+#menu{
+	float:left;
+	width:0 auto;
+	height:40px;
+	margin-top:30px;
+	margin-left:200px;
+}
+#menu ul li{
+    display:inline;
+	margin-left:7px;
+	margin-right:7px;
+	width:0 auto;
+}
+#menu a{
+	color:#000;
+	text-decoration:none;
+	font-size:14px;
+	margin:0 30px;
+	text-transform:uppercase;/*texto do menu em caixa alta*/
+}
+
+#menu a:hover{
+	text-decoration:none;
+    background-color: aliceblue;
+    color: black;
+	padding:14px 14px;
+	border: 1px solid aliceblue;
+ 
+}
+#im1{
+    width:90%;
+    height: 0 auto; 
+    
+}
+.meio1{
+    width:30%;
+    float: left;
+    text-align:center;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.meio2{
+    width:39%;
+    float: left;
+    text-align:justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.meio3{
+    width:29%;
+    float: left;
+    text-align:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.meio4{
+    width:98%;
+    float: left;
+    text-align:justify;
+
+    font-size: 24px;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.meio5{
+    width:20%;
+    float: left;
+    text-align:left;
+}
+#im5{
+    width: 80%;
+    height: 80px;
+
+}
+#im6{
+    width: 80%;
+    height: 80px;
+
+}
+.meio6{
+    width:10%;
+    float: left;
+    text-align:left;
+}
+.meio7{
+    width:40%;
+    float: left;
+    text-align:left;
+}
+.meio8{
+    width:30%;
+    float: left;
+    text-align:left;
+}
